@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Games" content="width=device-width, initial-scale=1.0">
+    <title>Games</title>
+    <script src="games"></script>
+   
+
+</head>
+<body>
+    <center>
+<iframe src="https://ubg100.github.io/index.html" style="width:1000px;height:720px"></iframe></center>
+</body>
+</html>
