@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+          <li class="nav-li">
+  <a href="index.html">Home</a></li>
+        <title>O'Connell Images</title>
+        <style>
+            body {
+                background: rgb(184, 77, 6);
+                color: rgb(0, 85, 67);
+                font-family: arial;
+                font-size: 20px;
+                padding: 10px;
+            }
+            #all-contents {
+              max-width: fit-content;
+                margin: auto;
+
+            }
+         
+            /* navigation menu */
+            nav {
+                background: rgb(0, 217, 255);
+                margin: 0 auto;
+                display: flex;
+                padding: 10px;
+                border-radius: 10px;
+                border-color: rgb(243, 5, 5);
+                margin: 0 auto;
+                margin-bottom: 15px;
+                box-shadow: 6px 6px #a314144b;
+            }
+            h1 {
+                display: flex;
+                align-items: center;
+                color: rgb(57, 78, 22);
+                flex: 1;
+                margin: 0;
+                font-style: oblique;
+                font-size: 40px;
+                padding: 2px;
+            }
+            #nav-ul {
+                list-style-image: none;
+            }
+            .nav-li {
+                display: inline-block;
+                padding: 5px;
+            }
+            #navanchor {
+                text-decoration: none;
+                color: rgb(58, 82, 4);
+                padding-right: 25px;
+            }
+        
+            /* main container area beneath menu */
+            main {
+                background: rgb(21, 159, 223);
+                display: flex;
+                border-radius: 10px;
+                border-color: black;
+                box-shadow: 6px 6px #0000004b;
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+            .bottomText {
+                background: beige;
+                border-radius: 10px;
+                padding: 30px;
+                margin: auto;
+                margin-top: 20px;
+                border-color: black;
+                box-shadow: 6px 6px #0000004b;
+                margin-left: 15%;
+                margin-right: 20%;
+                max-width: 900px;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 20px;
+            }
+            .sidebar-img {
+                width: 200px;
+                border-radius: 5px;
+                border: 8px rgb(61, 6, 6);
+                border-style: outset;
+                box-shadow: 0px 0px #0000004b;
+            }
+            .content {
+                flex: 1;
+                padding: 35px;
+            }
+            #interests {
+                border: 10px rgb(88, 3, 3) ridge;
+                padding: 8px;
+            }
+            h2, h3 {
+                margin: 0px;
+            }
+
+            .slideshow-image {
+                border: #ffffff 10px;
+                border-style: solid;
+            }
+
+            .slideshow-container {
+                max-width: 1000px;
+                position: center;
+                margin: auto;
+                margin-top: 20px;
+                margin-left: 14%;
+                margin-right: 10%;
+            }
+img{
+    width: 260px;
+}
+img {
+border-radius: 400%;
+ border: solid 5px #000000;
+}
+            /* Hide the images by default */
+
+
+            @keyframes fade {
+            from {opacity: .4}
+            to {opacity: 1}
+            }
+         </style>
+    </head>
+    
+    <body>
+        <div id="all-contents">
+            <nav>
+                <h1>Images</h1>
+                <ul id="nav-ul">
+                    <li class="nav-li">
+                        <a id="navanchor" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-li">
+                        <a id="navanchor" href="portfolio.html">Portfolio</a>
+                        </li>
+                    <li class="nav-li"><a id="navanchor" href="images.html">Images</a>
+                    </li>
+                
+                </ul>
+            </nav>
+                <!-- Start slideshow creation for portfolio. -->
+       
+<!-- Add this in your content section -->
+<div class="mt-8">
+  <h3 class="text-2xl font-bold mb-4">My Photo Gallery</h3>
+  <div class="flex flex-wrap gap-4">
+    <img src="asets/IMG_7268.JPG" alt="Lines" class="w-32 h-32 object-cover rounded-lg shadow-md">
+    <img src="asets/IMG_7269.JPG" alt="School Spirit" class="w-32 h-32 object-cover rounded-lg shadow-md">
+    <img src="asets/IMG_7270.JPG" alt="Ant View" class="w-32 h-32 object-cover rounded-lg shadow-md">
+    <img src="asets/IMG_7272.JPG" alt="Beauty" class="w-32 h-32 object-cover rounded-lg shadow-md">
+    <img src="asets/IMG_7274.JPG" alt="Contrast" class="w-32 h-32 object-cover rounded-lg shadow-md">
+   
+  </div>
+</div>
+    </body>
+</html>
+<!--   git init
+      git add .
+          git commit -m "Initial commit of website files"
+          -->
