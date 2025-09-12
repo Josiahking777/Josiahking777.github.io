@@ -18,7 +18,10 @@
         /* Change me! */
         left: 0px;
       }
-
+body {
+ background-image: url("paper.gif");
+ background-color: #2f5c7a;
+}
       .board {
         height: 100vh;
       }
@@ -69,9 +72,9 @@
         //////////////////////////////////////////////////////////////////
 
         // TODO 2 - Variable declarations
-
-
-
+var  positionX = 0;
+ var points = 0;
+var speed = 10;
 
 
         /**
@@ -79,11 +82,17 @@
          * Each time it is called, it should move the Box to a new location.
          * If the box drifts off the screen, turn it around!
          */
-        function update() {
-
-        
-
-          
+        function update() { moveBoxTo(200); // Moves box to x-position 200
+moveBoxTo(positionX);
+        positionX = positionX + speed; // Adds 10 to variableName
+      if (positionX > boardWidth){
+  // Code to reverse speed goes here
+  speed = speed * -1;
+}
+if (positionX < 0) {
+  // Code to reverse speed goes here
+  speed *= -1;
+}
         }
 
         /**
@@ -94,11 +103,10 @@
          * - move the box to the left side of the screen.
          */
         function handleBoxClick() {
-
-
-
-
-        }
+positionX=0;
+changeBoxText(points)
+points = points + 1; // Adds 1 to variableName
+speed = 2 * points + 10;        }
 
 
         
