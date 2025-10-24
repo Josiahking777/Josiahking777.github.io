@@ -8,8 +8,8 @@ var init = function (window) {
         canvas = app.canvas, 
         view = app.view,
         fps = draw.fps('#000');
-        
-    
+
+     
     window.opspark.makeGame = function() {
         
         window.opspark.game = {};
